@@ -1,0 +1,41 @@
+.row{
+    background-color: rgba(41, 72, 82, 0.479);
+    padding:25px;
+    text-align:center;
+    width:39%;
+    margin-top:8%;
+    border-radius: 5px ;
+    margin-left:28%;
+    border: 2px solid white;
+    color : white;
+    font-family: 'Libre Franklin', sans-serif;
+    font-size :18px;
+
+}
+
+body{
+	text-align: center;
+	
+}
+#btn{
+    background: #fbfdff83;
+ border: 0;
+ width: 250px;
+ height: 40px;
+ border-radius: 3px;
+ color: rgb(11, 27, 46);
+ padding:10px;
+ font-size:20px;
+ font-weight:bold;
+ cursor: pointer;
+ transition: 0.4s linear;
+ font-family:'Libre Franklin', sans-serif;
+}
+
+input{
+	height:30px;
+	width:180px;
+	padding:10px;
+	text-align: end;
+	
+}

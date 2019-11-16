@@ -1,0 +1,41 @@
+
+<!DOCTYPE html>
+<head>
+
+<title>Login</title>
+<link href="login.css" rel="stylesheet" type="text/css">
+<link href="https://fonts.googleapis.com/css?family=Libre+Franklin&display=swap" rel="stylesheet">
+</head>
+<body>
+
+<div class="login">
+<!--<ul class="backgroundslider">
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+	<li></li>
+    </ul>
+-->
+<form  method= "POST" action="login.php">
+
+<h1>Sign in</h1><br>
+<input type="text" name="username" id="username" placeholder="Username" value="" required><br><br>
+<input type="password" name="password" id="password" placeholder="Password" value="" required ><br><br>
+<input type="submit" name="login-submit" id="submit"><br><br>
+<div id="links"><a href="#">Forgot Password</a><br></div>
+</form>
+<form method="post" action="logout.php">
+	<button type="submit" name ="logout-submit">Logout</button>
+</form>
+
+</div>
+</body>
+</html>
+
+

@@ -1,0 +1,71 @@
+
+* {
+	margin:0px;
+	padding:0px;
+	
+}
+
+
+body{
+	padding:200px;
+	padding-left:550px;
+	padding-right:550px;
+	background-size: cover;
+	color: #e7e7e7;
+	height:100%;
+	width:100px;
+	font-family: 'Libre Franklin', sans-serif;
+}
+
+/* Sign in heading */
+h1{
+	text-align:center;
+	color:white;
+	font-size:25px;
+	margin-top:25px;
+	position:top;
+
+}
+#links{
+	text-align: center;
+	padding:10px;
+}
+
+/* Login box */
+.login {
+	width: 250px;
+	height: 300px;
+	position: absolute;
+	top: 55%;
+	left: 50%;
+	margin: -185px 0px 0px -150px;
+	background:rgba(41, 72, 82, 0.479);
+	padding: 20px 30px;
+	border-radius: 5px ;
+	border:3px solid rgba(255, 255, 255, 0.692);
+	box-shadow: 10px 10px 10px rgba(0,0,0,0.3),inset 10px 10px 10px rgba(255,255,255,0.07);
+}
+a {
+
+	color:white;
+	text-align:center;
+}
+/* Input boxes for username and password */
+input{
+	width:250px;
+ 	height:30px;
+}
+
+/* Submit button */
+input[type="submit"]{
+   	background: #3399ff;
+	border: 0;
+	width: 250px;
+	height: 40px;
+	border-radius: 3px;
+	color: white;
+	
+	cursor: pointer;
+	transition: 0.4s linear;
+}
+
