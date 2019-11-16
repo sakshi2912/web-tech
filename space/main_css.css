@@ -1,0 +1,398 @@
+body{
+    font-family: 'Marvel', sans-serif;
+    height: 93500px;
+    size:12000px;
+    background:linear-gradient(rgb(59, 130, 189),rgb(52, 2, 99),rgb(31, 2, 58),rgb(1, 23, 71),rgba(16, 1, 53, 0.979),rgb(25, 13, 54),black);
+}
+
+#logo{
+    align-self: center;
+    width:100%;
+    text-align: center;
+    
+}
+
+#cloud1{
+  margin-top:-15%;
+  margin-left:55%;
+  opacity: 0.5;
+  width:30%;
+ 
+}
+
+.nearmiss{
+  height:40%;
+  margin-top:-100px;
+}
+@keyframes blink {
+  0% {
+      opacity: 0.5;
+  }
+  50% {
+      opacity: 0;
+  }
+  100% {
+      opacity: 0.5;
+  }
+
+}
+
+.detect {
+  animation: blink 1s;
+  animation-iteration-count: infinite;
+  height:100px;
+  left:46%;
+  position:sticky;
+  top:200px;
+
+}
+#cloud2{
+  margin-top:-20%;
+  margin-left:35%;
+  opacity: 0.4;
+  width:220px;
+  height:150px;
+}
+#cloud3{
+  left:-50%;
+  margin-top:-20%;
+  opacity: 0.4;
+  width:220px;
+  height:150px;
+}
+.man-space{
+  margin-left:150px;
+  top:0;
+}
+.line { width:10%;
+        border: 1px solid rgb(255, 145, 0);
+        align-content: left;
+        margin-bottom:0%;
+        margin-top:0%;
+    }
+.text
+{
+    padding:0%;
+    color:rgb(255, 145, 0);
+    margin-left:12%;
+    margin-top:-1.5%;
+    margin-top:0%;
+}
+.text-grad{
+  padding:0%;
+  color:rgb(255, 255, 255);
+  margin-left:12%;
+  margin-top:-1.5%;
+  margin-top:0%;
+
+}
+.half-blank{
+  height:200px;
+}
+.blank{
+  height:500px;
+}
+.item-padding{
+  padding:0px;
+}
+@keyframes diagonal {
+    0%       { transform: translatex(30px) translatey(30px); }
+    50%      { transform: translatex(1000px) translatey(-100px); }
+    100%     { transform: translatex(1000px) translatey(-100px); }
+}
+.inline-photo {
+ height:150px;
+ width:150px;
+ max-width:200px;
+ position: absolute;
+}
+.balloon{
+  margin-left:10%;
+}
+.balloon2{
+  margin-left:29%;
+  margin-top:-10%;
+}
+.legoman{
+  margin-top :-130px;
+  margin-left:30%;
+}
+.zone-text{
+    text-align: center;
+    font-size:25px;
+    color:white;
+    font-family: 'Source Code Pro', monospace;
+    font-stretch: expanded;
+}
+.zone-line{
+    border-top: 0.12em white;
+    border-top-style: dashed;
+}
+.sub-text{
+  color:rgb(255, 145, 0);
+  font-family: 'Marvel';
+  margin-left:12%;
+  font-size:20px;
+  margin-top:-15px;
+  padding:0px;  
+}
+.sub-text-grad{
+  color:rgb(255, 255, 255);
+  font-family: 'Marvel';
+  margin-left:12%;
+  font-size:18px;
+  margin-top:-15px;
+  padding:0px;  
+}
+.fore{
+  height:600px;
+  width:1200px;
+  margin-left:150px;
+  margin-top:-400px;
+  padding:0px;
+  opacity:3;
+  max-width:2500px;
+  max-height:1500px;
+}
+
+.distance{
+  color:white;
+  margin-left:12%;
+  margin-top:-1.4%;
+  font-family:'Montserrat';
+}
+.div-size-100{
+  height:100px;
+}
+.zone-divider{
+  border-top:2px solid white;
+  border-top-style: dotted;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+  opacity:0.6;
+
+}
+.zone-divider.thin{
+  border-top:1px solid white;
+  border-top-style: dotted;
+  border-bottom: 0px;
+  border-left: 0px;
+  border-right: 0px;
+
+}
+.zero-padding{
+  margin-top:0px;
+}
+.zero-padding-bottom{
+  margin-bottom:0px;
+}
+
+#zone4 , #zone5{
+  height:0px;
+}
+.planet{
+  margin-left:1000px;
+  margin-top:-300px;
+  height:150px;
+  width:150px;
+}
+.planet.venus{
+  margin-left:950px;
+  margin-top:-200px;
+  height:250px;
+  width:250px;
+}
+.planet.mercury{
+  margin-left:950px;
+  margin-top:-200px;
+  height:270px;
+  width:270px;
+}
+.planet.sun{
+  height:725px;
+  width:725px;
+  margin-left:650px;
+  margin-top:-400px;
+}
+.planet.jupiter{
+  height:500px;
+  width:500px;
+  margin-left:800px;
+  margin-top:-300px;
+}
+.planet.saturn{
+  height:300px;
+  width:500px;
+  margin-left:800px;
+  margin-top:-200px;
+}
+.skydive{
+  margin-left:30%;
+  margin-top:-130px;
+}
+
+[data-aos="aircraft"] {
+  transform: translateX(1000px) translateY(30px);
+  transition-property: transform;
+}
+
+[data-aos="aircraft"].aos-animate {
+  transform: translateX(0px) translateY(100px);
+}
+[data-aos="meteor"] {
+  transform:translatex(0px) translatey(30px);
+  transition-property: transform;
+}
+
+[data-aos="meteor"].aos-animate {
+  transform: translateX(1000px) translatey(150px);
+}
+
+
+[data-aos="ast"] {
+  transform: translateX(1500px);
+  transition-property: transform;
+}
+
+[data-aos="ast"].aos-animate {
+  transform: translateX(-300px) translateY(300px);
+}
+
+[data-aos="comet"] {
+  transform:translatex(1400px);
+  opacity:0.6;
+  transition-property: transform;
+}
+
+[data-aos="comet"].aos-animate {
+  transform: translateX(-100px);
+  opacity:1;
+}
+
+[data-aos="comet1"] {
+  transform:translatex(-100px);
+  opacity:0.6;
+  transition-property: transform;
+}
+
+[data-aos="comet1"].aos-animate {
+  transform: translateX(1700px) translateY(400px);
+  opacity:0.8;
+
+}
+[data-aos="voy"] {
+  transform:translatex(-100px) rotate(0deg);
+  opacity:0.6;
+  transition-property: transform;
+}
+
+[data-aos="voy"].aos-animate {
+  transform: translateX(1700px) rotate(90deg);
+  opacity:0.8;
+
+}
+.mon{
+  height:150px;
+}
+.voy{
+  height:350px;
+  margin-left:100px;
+}
+.belt{
+  opacity:0.6;
+  margin-top:-10%;
+  margin-left:100px;
+  height:1000px;
+}
+.gps{
+  margin-left:20%;
+}
+.gps2{
+ left:0;
+}
+.gps3{
+  margin-left:10%;
+  height:40%;
+}
+.ast{
+  height:60%;
+  margin-top:10%;
+}
+.ast2{
+  height:90%;
+  margin-top:-10%;
+}
+.sat{
+  margin-left:20%;
+
+}
+.comet{
+  margin-top:-200px;
+  height:70%;
+}
+
+.meteor{
+  opacity:0.6;
+  left:0;
+  margin-top:-60%;
+  height:40%;
+}
+.man-space{
+ margin-top:-150px;
+ margin-left:34%;
+}
+.nuclear
+{
+  margin-left:30%;
+  margin-top:-30%;
+  opacity:0.9;
+  height:150px;
+  
+
+}
+#rocket{
+  text-align:center;
+  position:sticky;
+  position: -webkit-sticky;
+  top:0;
+
+}
+.rocket{
+  height:16%;
+  width:16%;
+}
+
+.iss{
+  opacity:0.9;
+  margin-left : 10%;
+}
+#debris{
+  height:400px;
+  margin-left:20%;
+}
+#dist_meter{
+float:left;
+width:auto;
+height:30px;
+display:block;
+border:1px solid #ffffff;
+background:#ffffff;
+color:rgb(255, 145, 0);
+line-height:30px;
+text-align:center;
+padding:0 20px;
+border-radius:7px;
+bottom:0;
+right:10px;
+width:8%;
+height:5%;
+position:fixed;
+}
+.dot {
+  position: absolute;
+  background-color: #ffffff;
+  height: 2px;
+  width: 2px;
+  border-radius: 50%;
+}
